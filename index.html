@@ -3,223 +3,352 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Join the Nigerian Nurses Forum for Excellence — a professional community for Nigerian nurses focused on networking, specialized training, career development, mentorship and new opportunities." />
+  <meta name="description" content="Join the Nigerian Nurses Forum for Excellence, a professional development program of CNU Medical Nigeria Limited for Nigerian nurses. Connect, learn, advance and excel." />
   <meta name="theme-color" content="#075c3a" />
-  <title>Nigerian Nurses Forum for Excellence</title>
+  <meta property="og:title" content="Nigerian Nurses Forum for Excellence" />
+  <meta property="og:description" content="Connect. Learn. Advance. Excel. Join a professional community built for Nigerian nurses." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/forum-flyer-updated.png" />
+  <title>Nigerian Nurses Forum for Excellence | CNU Medical Nigeria Limited</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@1,600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
 
-  <header class="site-header">
+  <header class="site-header" id="top">
     <div class="container nav-wrap">
-      <a class="brand" href="#top" aria-label="Nigerian Nurses Forum for Excellence home">
-        <img src="assets/forum-logo.jpg" alt="Nigerian Nurses Forum for Excellence logo" />
-        <div>
-          <strong>Nigerian Nurses Forum</strong>
-          <span>for Excellence</span>
+      <a class="brand brand-dual" href="#top" aria-label="Nigerian Nurses Forum for Excellence home">
+        <img class="forum-mark" src="assets/forum-logo.jpeg" alt="Nigerian Nurses Forum for Excellence logo" />
+        <div class="brand-copy">
+          <strong>Nigerian Nurses Forum for Excellence</strong>
+          <span>A Program of CNU Medical Nigeria Limited</span>
         </div>
+        <span class="brand-divider" aria-hidden="true"></span>
+        <img class="cnu-mark" src="assets/cnu-medical-logo.png" alt="CNU Medical logo" />
       </a>
 
-      <nav class="nav" aria-label="Primary navigation">
+      <nav class="nav" id="primaryNav" aria-label="Primary navigation">
+        <a href="#about">About</a>
         <a href="#benefits">Benefits</a>
         <a href="#training">Training</a>
-        <a href="#about">About</a>
-        <a class="nav-cta" href="https://chat.whatsapp.com/Fqb6MI111UNLkrgv3abnwd?s=cl&p=i&mlu=4" target="_blank" rel="noopener">Join the Forum</a>
+        <a href="#pathway">Pathway</a>
+        <a href="#faq">FAQ</a>
+        <a class="nav-cta" href="https://chat.whatsapp.com/Fqb6MI111UNLkrgv3abnwd?s=cl&p=i&mlu=4" target="_blank" rel="noopener">Join Forum</a>
       </nav>
 
-      <button class="menu-btn" aria-label="Open navigation" aria-expanded="false">
+      <button class="menu-btn" aria-label="Toggle navigation" aria-expanded="false" aria-controls="primaryNav">
         <span></span><span></span><span></span>
       </button>
     </div>
+    <div class="scroll-progress" aria-hidden="true"><span id="scrollProgress"></span></div>
   </header>
 
   <main id="main">
-    <section class="hero" id="top">
-      <div class="hero-glow hero-glow-1"></div>
-      <div class="hero-glow hero-glow-2"></div>
+    <section class="hero">
+      <div class="hero-orb orb-a"></div>
+      <div class="hero-orb orb-b"></div>
 
       <div class="container hero-grid">
-        <div class="hero-copy">
-          <div class="eyebrow">Connect. Learn. Advance. Excel.</div>
-          <h1>Build the skills, network and opportunities that move your nursing career forward.</h1>
+        <div class="hero-copy reveal">
+          <div class="eyebrow">For Skilled Nurses in Nigeria</div>
+          <h1>Build the skills, network and confidence to move your nursing career forward.</h1>
           <p class="hero-lead">
-            The <strong>Nigerian Nurses Forum for Excellence</strong> is a professional platform created to connect, empower and advance Nigerian nurses who want to grow beyond the opportunities they know today.
+            The <strong>Nigerian Nurses Forum for Excellence</strong> is a professional development program of
+            <strong>CNU Medical Nigeria Limited</strong>, created specifically for Nigerian nurses who want to grow,
+            connect and stay relevant in a changing healthcare environment.
           </p>
 
           <div class="hero-actions">
             <a class="btn btn-primary" href="https://chat.whatsapp.com/Fqb6MI111UNLkrgv3abnwd?s=cl&p=i&mlu=4" target="_blank" rel="noopener">
-              Join the WhatsApp Forum
-              <span aria-hidden="true">→</span>
+              Join the WhatsApp Forum <span aria-hidden="true">→</span>
             </a>
-            <a class="btn btn-secondary" href="#benefits">See What You Gain</a>
+            <a class="btn btn-secondary" href="#benefits">Explore Membership</a>
           </div>
 
-          <div class="trust-row" aria-label="Forum focus areas">
-            <span>Professional networking</span>
-            <span>Specialized training</span>
-            <span>Career development</span>
-            <span>Mentorship</span>
+          <div class="hero-proof">
+            <div><strong>Connect</strong><span>with nurses and healthcare professionals</span></div>
+            <div><strong>Learn</strong><span>through practical professional development</span></div>
+            <div><strong>Advance</strong><span>toward stronger career opportunities</span></div>
           </div>
         </div>
 
-        <div class="hero-card">
-          <div class="hero-image-wrap">
-            <img src="assets/forum-flyer.jpg" alt="Nigerian Nurses Forum for Excellence promotional flyer" />
+        <aside class="visual-card reveal" aria-label="Forum promotional flyer">
+          <div class="visual-frame">
+            <img src="assets/forum-flyer-updated.png" alt="Updated Nigerian Nurses Forum for Excellence promotional flyer" />
           </div>
-          <div class="mini-banner">
-            <span>Your nursing license is the beginning — not the destination.</span>
+          <div class="floating-note">
+            <span class="note-dot"></span>
+            <div><strong>Built for Nigerian nurses</strong><small>Professional growth • Networking • Specialized learning</small></div>
           </div>
-        </div>
+        </aside>
       </div>
     </section>
 
-    <section class="stat-strip" aria-label="Forum promise">
-      <div class="container stats">
-        <div><strong>UPSKILL</strong><span>Build specialized clinical knowledge</span></div>
-        <div><strong>CONNECT</strong><span>Meet nurses, educators and leaders</span></div>
-        <div><strong>ADVANCE</strong><span>Explore stronger career pathways</span></div>
-        <div><strong>GROW</strong><span>Position yourself for more opportunity</span></div>
+    <section class="trust-strip">
+      <div class="container trust-grid">
+        <div><span>01</span><strong>Upskill Yourself</strong></div>
+        <div><span>02</span><strong>Advance Your Career</strong></div>
+        <div><span>03</span><strong>Connect & Network</strong></div>
+        <div><span>04</span><strong>Grow With Community</strong></div>
       </div>
     </section>
 
     <section class="section" id="about">
-      <div class="container split">
-        <div>
-          <div class="section-kicker">Why this forum exists</div>
-          <h2>Healthcare is changing. Your career strategy should change with it.</h2>
+      <div class="container intro-grid">
+        <div class="reveal">
+          <div class="section-kicker">Why the forum exists</div>
+          <h2>Nursing is evolving. Your professional development should evolve with it.</h2>
         </div>
-        <div class="body-copy">
+
+        <div class="prose reveal">
           <p>
-            Nursing opportunities are expanding beyond traditional bedside roles. The Forum helps members discover and prepare for professional pathways through practical learning, networking, mentorship, specialized clinical development and exposure to flexible healthcare opportunities.
+            Healthcare opportunities increasingly reward nurses who combine strong clinical foundations with specialized skills,
+            professional visibility, adaptability and networks. The Forum brings those growth areas together in one professional community.
           </p>
           <p>
-            The goal is simple: help Nigerian nurses become more skilled, more connected and better positioned to create greater value for patients, employers and communities.
+            Members can access information about training, mentorship, specialized nursing areas, home healthcare, professional networking,
+            career development and other opportunities relevant to modern nursing practice.
           </p>
+          <div class="parent-brand">
+            <img class="parent-forum-logo" src="assets/forum-logo.jpeg" alt="Nigerian Nurses Forum for Excellence logo" />
+            <div class="parent-brand-copy">
+              <strong>Nigerian Nurses Forum for Excellence</strong>
+              <span>A Program of CNU Medical Nigeria Limited</span>
+              <small>Healthcare education • Professional development • Workforce capacity building</small>
+            </div>
+            <img class="parent-cnu-logo" src="assets/cnu-medical-logo.png" alt="CNU Medical logo" />
+          </div>
+        </div>
         </div>
       </div>
     </section>
 
     <section class="section section-soft" id="benefits">
       <div class="container">
-        <div class="section-heading">
-          <div class="section-kicker">Why join?</div>
-          <h2>More than a group chat. A professional growth community.</h2>
-          <p>Membership is designed around the practical things that can move a nursing career forward.</p>
+        <div class="section-heading reveal">
+          <div class="section-kicker">What you gain</div>
+          <h2>A community designed around practical professional growth.</h2>
+          <p>Everything on the platform is organized to help nurses become more informed, connected, skilled and opportunity-ready.</p>
         </div>
 
         <div class="cards">
-          <article class="card">
-            <div class="icon">01</div>
+          <article class="card reveal">
+            <span class="card-number">01</span>
+            <div class="card-icon">↗</div>
             <h3>Upgrade Your Skills</h3>
-            <p>Gain specialized clinical knowledge and learn practical skills that can strengthen your professional profile.</p>
+            <p>Strengthen clinical knowledge and expand into specialized areas that can improve your professional value.</p>
           </article>
 
-          <article class="card">
-            <div class="icon">02</div>
+          <article class="card reveal">
+            <span class="card-number">02</span>
+            <div class="card-icon">◎</div>
             <h3>Advance Your Career</h3>
-            <p>Discover new career pathways and opportunities in Nigeria and internationally.</p>
+            <p>Explore pathways, learning opportunities and professional directions within Nigeria and beyond.</p>
           </article>
 
-          <article class="card">
-            <div class="icon">03</div>
-            <h3>Increase Your Earning Potential</h3>
-            <p>Specialized skills can help position qualified nurses for higher-value roles and additional professional opportunities.</p>
+          <article class="card reveal">
+            <span class="card-number">03</span>
+            <div class="card-icon">₦</div>
+            <h3>Improve Earning Potential</h3>
+            <p>Specialized skills and stronger positioning can help qualified nurses compete for higher-value professional opportunities.</p>
           </article>
 
-          <article class="card">
-            <div class="icon">04</div>
+          <article class="card reveal">
+            <span class="card-number">04</span>
+            <div class="card-icon">◌</div>
             <h3>Connect & Network</h3>
-            <p>Build relationships with nurses, healthcare leaders, educators, mentors and potential employers.</p>
+            <p>Build relationships with nurses, educators, healthcare leaders, mentors and potential collaborators.</p>
           </article>
 
-          <article class="card">
-            <div class="icon">05</div>
-            <h3>Access Flexible Opportunities</h3>
-            <p>Explore home healthcare, specialized nursing visits, training opportunities and flexible work arrangements.</p>
+          <article class="card reveal">
+            <span class="card-number">05</span>
+            <div class="card-icon">⌁</div>
+            <h3>Explore Flexible Opportunities</h3>
+            <p>Learn about home healthcare, specialized nursing visits, training engagements and other flexible professional options.</p>
           </article>
 
-          <article class="card">
-            <div class="icon">06</div>
-            <h3>Grow With a Stronger Community</h3>
-            <p>Learn alongside professionals who are committed to stronger nursing practice and healthier communities.</p>
+          <article class="card reveal">
+            <span class="card-number">06</span>
+            <div class="card-icon">✦</div>
+            <h3>Grow With Community</h3>
+            <p>Develop alongside nurses who are committed to stronger practice, healthier communities and better professional outcomes.</p>
           </article>
         </div>
       </div>
     </section>
 
-    <section class="section training" id="training">
-      <div class="container training-grid">
-        <div>
-          <div class="section-kicker light">Specialized learning</div>
-          <h2>Training areas designed around practical nursing needs.</h2>
+    <section class="section training-section" id="training">
+      <div class="container training-layout">
+        <div class="training-copy reveal">
+          <div class="section-kicker light">Specialized learning areas</div>
+          <h2>Practical areas that can strengthen modern nursing practice.</h2>
           <p>
-            The Forum will expose members to specialized clinical and career-development areas that can strengthen competence, confidence and professional relevance.
+            Training and development opportunities may cover specialized clinical skills, patient care coordination,
+            home health practice and leadership development.
           </p>
-          <a class="btn btn-light" href="https://chat.whatsapp.com/Fqb6MI111UNLkrgv3abnwd?s=cl&p=i&mlu=4" target="_blank" rel="noopener">Join to Receive Updates →</a>
+          <a class="btn btn-light" href="https://chat.whatsapp.com/Fqb6MI111UNLkrgv3abnwd?s=cl&p=i&mlu=4" target="_blank" rel="noopener">
+            Join for Training Updates →
+          </a>
         </div>
 
-        <div class="training-list">
-          <div>Advanced Wound Care Management</div>
-          <div>IV Therapy & Infusion</div>
-          <div>PICC Line Care</div>
-          <div>Chronic Disease Management</div>
-          <div>Home Health Nursing</div>
-          <div>Post-Surgical Care</div>
-          <div>Geriatric & Palliative Care</div>
-          <div>Infection Prevention & Control</div>
-          <div>Patient Education & Care Coordination</div>
-          <div>Diabetes Management</div>
-          <div>Leadership & Career Development</div>
-          <div>And more specialized areas</div>
+        <div class="training-panel reveal">
+          <button class="training-item active" data-topic="Advanced Wound Care Management">
+            <span>Advanced Wound Care Management</span><b>+</b>
+          </button>
+          <button class="training-item" data-topic="IV Therapy & Infusion">
+            <span>IV Therapy & Infusion</span><b>+</b>
+          </button>
+          <button class="training-item" data-topic="PICC Line Care">
+            <span>PICC Line Care</span><b>+</b>
+          </button>
+          <button class="training-item" data-topic="Chronic Disease Management">
+            <span>Chronic Disease Management</span><b>+</b>
+          </button>
+          <button class="training-item" data-topic="Home Health Nursing">
+            <span>Home Health Nursing</span><b>+</b>
+          </button>
+          <button class="training-item" data-topic="Geriatric & Palliative Care">
+            <span>Geriatric & Palliative Care</span><b>+</b>
+          </button>
+          <button class="training-item" data-topic="Infection Prevention & Control">
+            <span>Infection Prevention & Control</span><b>+</b>
+          </button>
+          <button class="training-item" data-topic="Patient Education & Care Coordination">
+            <span>Patient Education & Care Coordination</span><b>+</b>
+          </button>
+          <button class="training-item" data-topic="Diabetes Management">
+            <span>Diabetes Management</span><b>+</b>
+          </button>
+          <button class="training-item" data-topic="Leadership & Career Development">
+            <span>Leadership & Career Development</span><b>+</b>
+          </button>
         </div>
       </div>
     </section>
 
-    <section class="section">
-      <div class="container journey">
-        <div class="section-heading">
-          <div class="section-kicker">Your growth pathway</div>
-          <h2>Join. Learn. Build. Advance.</h2>
-        </div>
-
-        <div class="journey-steps">
-          <div class="step"><span>1</span><div><h3>Join the Forum</h3><p>Enter the professional community through the official WhatsApp group.</p></div></div>
-          <div class="step"><span>2</span><div><h3>Stay Informed</h3><p>Receive updates about learning, professional development and relevant opportunities.</p></div></div>
-          <div class="step"><span>3</span><div><h3>Build Your Skills</h3><p>Participate in specialized training and career-development activities as they become available.</p></div></div>
-          <div class="step"><span>4</span><div><h3>Expand Your Network</h3><p>Connect with professionals who can broaden your perspective and professional reach.</p></div></div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section audience section-soft">
+    <section class="section" id="pathway">
       <div class="container">
-        <div class="section-heading">
-          <div class="section-kicker">Who should join?</div>
-          <h2>Built for nurses who want to keep moving forward.</h2>
+        <div class="section-heading reveal">
+          <div class="section-kicker">Your growth pathway</div>
+          <h2>Simple to join. Built to keep you moving.</h2>
         </div>
-        <div class="audience-grid">
+
+        <div class="pathway">
+          <div class="path-card reveal">
+            <div class="path-num">1</div>
+            <div><h3>Join</h3><p>Enter the official Nigerian Nurses Forum for Excellence community through WhatsApp.</p></div>
+          </div>
+          <div class="path-card reveal">
+            <div class="path-num">2</div>
+            <div><h3>Learn</h3><p>Receive professional development updates, training information and useful career resources.</p></div>
+          </div>
+          <div class="path-card reveal">
+            <div class="path-num">3</div>
+            <div><h3>Connect</h3><p>Build professional relationships and exchange knowledge with other nurses and healthcare leaders.</p></div>
+          </div>
+          <div class="path-card reveal">
+            <div class="path-num">4</div>
+            <div><h3>Advance</h3><p>Use stronger skills and networks to position yourself for wider professional opportunities.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft">
+      <div class="container audience-layout">
+        <div class="reveal">
+          <div class="section-kicker">Who should join?</div>
+          <h2>For nurses who refuse to remain professionally static.</h2>
+          <p class="audience-lead">The Forum is especially useful for Nigerian nurses who want to expand what is possible in their careers.</p>
+        </div>
+
+        <div class="check-list reveal">
           <div>Registered nurses seeking professional growth</div>
           <div>Nurses exploring specialized clinical practice</div>
-          <div>Nurses interested in home healthcare opportunities</div>
+          <div>Nurses interested in home healthcare pathways</div>
           <div>Nurses seeking stronger professional networks</div>
-          <div>Nurses interested in leadership and mentorship</div>
-          <div>Nurses preparing for broader local or international opportunities</div>
+          <div>Nurses interested in mentorship and leadership</div>
+          <div>Nurses preparing for wider local or international opportunities</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section faq-section" id="faq">
+      <div class="container faq-layout">
+        <div class="reveal">
+          <div class="section-kicker">Frequently asked questions</div>
+          <h2>Know what you are joining.</h2>
+          <p class="faq-intro">Clear answers to the questions prospective members are most likely to ask.</p>
+        </div>
+
+        <div class="faq-list reveal">
+          <article class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>Who is the Forum for?</span><b>+</b>
+            </button>
+            <div class="faq-answer"><p>The Forum is designed for Nigerian nurses who want professional development, stronger networks, specialized learning and broader career exposure.</p></div>
+          </article>
+
+          <article class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>Is the Forum part of CNU Medical?</span><b>+</b>
+            </button>
+            <div class="faq-answer"><p>Yes. The Nigerian Nurses Forum for Excellence is a program of CNU Medical Nigeria Limited.</p></div>
+          </article>
+
+          <article class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>Does joining guarantee a job or higher income?</span><b>+</b>
+            </button>
+            <div class="faq-answer"><p>No. The Forum provides professional development, networking and exposure to opportunities. Individual outcomes depend on qualifications, experience, performance and available opportunities.</p></div>
+          </article>
+
+          <article class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>How do I join?</span><b>+</b>
+            </button>
+            <div class="faq-answer"><p>Use any “Join the Forum” button on this page to enter the official WhatsApp community.</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="section corporate-band">
+      <div class="container corporate-inner reveal">
+        <div class="corporate-copy">
+          <div class="section-kicker">Powered by CNU Medical Nigeria Limited</div>
+          <h2>Professional development built with a healthcare education focus.</h2>
+          <p>
+            The Nigerian Nurses Forum for Excellence is delivered under CNU Medical Nigeria Limited,
+            with a focus on healthcare education, professional development and stronger nursing capacity in Nigeria.
+          </p>
+          <a class="text-link" href="https://www.cnumedical.com" target="_blank" rel="noopener">
+            Visit CNU Medical <span aria-hidden="true">→</span>
+          </a>
+        </div>
+        <div class="corporate-logo-card">
+          <img src="assets/cnu-medical-logo.png" alt="CNU Medical logo" />
+          <span>CNU Medical Nigeria Limited</span>
         </div>
       </div>
     </section>
 
     <section class="cta-section">
-      <div class="container cta-box">
-        <div>
-          <div class="section-kicker light">Nurses, it’s time to level up.</div>
-          <h2>Elevate your skills. Expand your opportunities. Advance your nursing career.</h2>
-          <p>Join the Nigerian Nurses Forum for Excellence and become part of a community focused on stronger nurses and a healthier Nigeria.</p>
+      <div class="container">
+        <div class="cta-card reveal">
+          <div>
+            <span class="cta-eyebrow">Nurses, it’s time to level up.</span>
+            <h2>Elevate your skills. Expand your opportunities. Advance your nursing career.</h2>
+            <p>Join the Nigerian Nurses Forum for Excellence and become part of a community focused on stronger nurses and a healthier Nigeria.</p>
+          </div>
+          <a class="btn btn-gold" href="https://chat.whatsapp.com/Fqb6MI111UNLkrgv3abnwd?s=cl&p=i&mlu=4" target="_blank" rel="noopener">
+            Join the Forum Now →
+          </a>
         </div>
-        <a class="btn btn-gold" href="https://chat.whatsapp.com/Fqb6MI111UNLkrgv3abnwd?s=cl&p=i&mlu=4" target="_blank" rel="noopener">
-          Join the Forum Now
-          <span aria-hidden="true">→</span>
-        </a>
       </div>
     </section>
   </main>
@@ -227,19 +356,36 @@
   <footer>
     <div class="container footer-grid">
       <div class="footer-brand">
-        <img src="assets/forum-logo.jpg" alt="" aria-hidden="true" />
+        <img class="footer-forum-logo" src="assets/forum-logo.jpeg" alt="Nigerian Nurses Forum for Excellence logo" />
         <div>
           <strong>Nigerian Nurses Forum for Excellence</strong>
-          <span>Skilled Nurses • Stronger Nigeria • Brighter Futures</span>
+          <span>A Program of CNU Medical Nigeria Limited</span>
         </div>
       </div>
-      <div class="footer-copy">Connect. Learn. Advance. Excel.</div>
+
+      <div class="footer-corporate">
+        <img src="assets/cnu-medical-logo.png" alt="CNU Medical logo" />
+      </div>
+
+      <div class="footer-links">
+        <a href="#about">About</a>
+        <a href="#training">Training</a>
+        <a href="#faq">FAQ</a>
+        <a href="https://www.cnumedical.com" target="_blank" rel="noopener">CNU Medical</a>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <span>Connect. Learn. Advance. Excel.</span>
+      <span>Skilled Nurses • Stronger Nigeria • Brighter Futures</span>
     </div>
   </footer>
 
-  <a class="floating-join" href="https://chat.whatsapp.com/Fqb6MI111UNLkrgv3abnwd?s=cl&p=i&mlu=4" target="_blank" rel="noopener" aria-label="Join the Nigerian Nurses Forum for Excellence on WhatsApp">
-    <span>Join Forum</span>
+  <a class="floating-join" href="https://chat.whatsapp.com/Fqb6MI111UNLkrgv3abnwd?s=cl&p=i&mlu=4" target="_blank" rel="noopener" aria-label="Join the forum on WhatsApp">
+    <span class="wa-dot"></span> Join Forum
   </a>
+
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
 
   <script src="script.js"></script>
 </body>
